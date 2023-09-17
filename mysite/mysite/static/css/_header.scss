@@ -1,0 +1,24 @@
+.header {
+    width: 228px;
+    height: 102px;
+    flex-shrink: 0;
+    position: fixed;
+    top: 142px;
+    right: 92px;
+
+}
+
+.header__link {
+    color: $colour-text;
+    text-align: right;
+    font-family: $font-secondary;
+    font-size: 17.45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20.94px; /* 120% */
+    letter-spacing: 1.396px;
+    display: block;
+    &--active {
+        color: $colour-text-accent;
+    }
+}

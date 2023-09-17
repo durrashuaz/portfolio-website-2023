@@ -1,0 +1,22 @@
+//Colors
+$navy: #0A192F;
+$turquoise: #64FFDA;
+$white: #CCD6F6;
+$light-white: #8892B0;
+
+$bg-colour: $navy;
+
+$colour-text-accent: $turquoise;
+$colour-text-heading: $white;
+$colour-text: $light-white;
+
+$container-padding: 169px;
+
+$font-primary: ‘SF Pro Text’;
+$font-secondary: 'Nunito', sans-serif;
+@font-face {
+    font-family: ‘SF Pro Text’;
+    font-style: normal;
+    font-weight: 400;
+    src: url(“././fonts/SF-Pro-Text-Regular.otf) format(“opentype”)
+}

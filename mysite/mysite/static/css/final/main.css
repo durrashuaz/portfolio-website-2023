@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@font-face {
+  font-family: ‘SF Pro Text’;
+  font-style: normal;
+  font-weight: 400;
+  src: url(“././fonts/SF-Pro-Text-Regular.otf) format(“opentype”);
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, figure, nav, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+textarea {
+  font-family: ‘SF Pro Text’;
+}
+
+button {
+  font-family: ‘SF Pro Text’;
+  background: none;
+  border: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
+}
+a:visited {
+  color: initial;
+}
+.footer a, .about-home__image__socials a {
+  text-decoration: none;
+}
+
+th {
+  text-align: left;
+}
+
+body {
+  background-color: #0A192F;
+  height: 12000px;
+}
+
+.site {
+  padding: 142px 92px;
+}
+
+.site-text, body {
+  color: #8892B0;
+  font-family: ‘SF Pro Text’;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 2.24px;
+}
+
+.site-title {
+  width: 40%;
+  height: 140px;
+  margin-bottom: 1rem;
+}
+.site-title__text {
+  color: #64FFDA;
+  font-family: "Nunito", sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63px; /* 87.5% */
+  letter-spacing: 12.24px;
+}
+
+.description {
+  font-family: "Nunito", sans-serif;
+  width: 488px;
+  flex-shrink: 0;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 122.222% */
+  letter-spacing: 2.16px;
+}
+
+.flex {
+  display: flex;
+}
+
+.header {
+  width: 228px;
+  height: 102px;
+  flex-shrink: 0;
+  position: fixed;
+  top: 142px;
+  right: 92px;
+}
+
+.header__link {
+  color: #8892B0;
+  text-align: right;
+  font-family: "Nunito", sans-serif;
+  font-size: 17.45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20.94px; /* 120% */
+  letter-spacing: 1.396px;
+  display: block;
+}
+.header__link--active {
+  color: #64FFDA;
+}

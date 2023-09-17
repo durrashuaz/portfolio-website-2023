@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+<!-- load wagtailcore_tags by adding this: -->
+{% load wagtailcore_tags %}
+
+{% block body_class %}template-homepage{% endblock %}
+
+<!-- replace everything below with: -->
+{% block content %}
+    <header class="header">
+        <a class="header__link header__link--active">about #</a>
+        <a class="header__link" href="#workexperience">work experience #</a> test
+        <a class="header__link" href="#projects">projects #</a>
+    </header>
+    <div class="site-title">
+        <h1 class="site-title__text">{{ page.title }}</h1>
+    </div>
+    <h2 class="description">{{ page.page_description|richtext }}</h2>
+    <div class="description">{{ page.about|richtext }}</div>
+    {% for field in MyModel._meta.fields %}
+    <li>{{ field.name }}</li>
+  {% endfor %}
+    {{page.field}}
+    <footer>
+    </footer>
+{% endblock %}
+

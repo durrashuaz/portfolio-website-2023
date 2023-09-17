@@ -1,0 +1,45 @@
+body {
+    background-color: $bg-colour;
+    @extend .site-text;
+    height: 12000px;
+}
+
+.site {
+    padding: 142px 92px;
+}
+
+.site-text {
+    color: $colour-text;
+    font-family: $font-primary;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 2.24px;
+}
+
+.site-title {
+    width: 40%;
+    height: 140px;
+    margin-bottom: 1rem;
+    &__text {
+        color: $colour-text-accent;
+        font-family: $font-secondary;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 63px; /* 87.5% */
+        letter-spacing: 12.24px;
+    }
+}
+
+.description {
+    font-family: 'Nunito', sans-serif;
+    width: 488px;
+    flex-shrink: 0;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 122.222% */
+    letter-spacing: 2.16px;
+}
